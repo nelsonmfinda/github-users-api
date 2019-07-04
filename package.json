@@ -1,0 +1,24 @@
+{
+  "name": "shawandpartners-test",
+  "version": "0.0.1",
+  "description": "Shaw and Partners back-end challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/nelsonmfinda/shawandpartners-test.git"
+  },
+  "keywords": [
+    "test",
+    "api",
+    "rest",
+    "challenge",
+    "microservice",
+    "back-end"
+  ],
+  "author": "Nelson Mfinda <hello@nelsonmfinda.me> (http://nelsonmfinda.me/)",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/nelsonmfinda/shawandpartners-test#readme"
+}
