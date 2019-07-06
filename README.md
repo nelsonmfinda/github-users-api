@@ -94,7 +94,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[build-url]: #
+[build-url]: https://travis-ci.com/nelsonmfinda/github-users-api.svg?branch=master
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [contributors-url]: https://github.com/nelsonmfinda/github-users-api/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
