@@ -2,6 +2,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Maintainability](https://api.codeclimate.com/v1/badges/a464fa475215919668fc/maintainability)](https://codeclimate.com/github/nelsonmfinda/github-users-api/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a464fa475215919668fc/test_coverage)](https://codeclimate.com/github/nelsonmfinda/github-users-api/test_coverage)
 
 # Challenge [BACK-END]
 
