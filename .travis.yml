@@ -26,6 +26,10 @@ cache:
 # before_install:
 #   - rvm install 2.5.0
 
+notifications:
+  on_success: change
+  on_failure: change
+
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter

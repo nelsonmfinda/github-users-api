@@ -52,6 +52,32 @@ Explain what these tests test and why
 npm run lint
 ```
 
+## Using Docker
+
+```sh
+docker pull nelsonmfinda/github-users-api
+```
+
+- Run the image
+
+```sh
+docker run -p 3000:3000 -d nelsonmfinda/github-users-api
+```
+
+- Print the output of your app:
+
+  1. Get container ID
+
+  ```sh
+  docker ps
+  ```
+
+  2. Print app output
+
+  ```sh
+  docker logs <container id>
+  ```
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
@@ -63,11 +89,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://bitbucket.org/nelsonmfinda/shawandpartners-test/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://bitbucket.org/nelsonmfinda/shawandpartners-test/tags).
 
 ## Author(s)
 
-* **Nelson Mfinda** - [Nelson Mfinda](https://bitbucket.org/nelsonmfinda)
+***Nelson Mfinda** - [Nelson Mfinda](https://bitbucket.org/nelsonmfinda)
 
 ## License
 
