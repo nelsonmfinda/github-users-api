@@ -16,14 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node ~> v8.10.0
-- Nodemon
-- Express
-- Axios
-- MongoDB or PostgreSQL
+- NPM ~> v6.10.0
 
-```
-Give examples
-```
+Follow this link to [install node in your machine](https://nodejs.org/en/download/)
 
 ### Installing
 
@@ -31,36 +26,30 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```sh
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+And run project
+
+```sh
+npm run dev
+```
+
+Now running on your local machine <http://localhost:3000/api/>
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```sh
+npm run test
 ```
 
 ### And coding style tests
 
 Explain what these tests test and why
 
-```
-Give an example
+```sh
+npm run lint
 ```
 
 ## Deployment
@@ -69,9 +58,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Express - The web framework used
+* Axios - Promise based HTTP client
 
 ## Versioning
 
