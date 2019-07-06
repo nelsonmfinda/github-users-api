@@ -4,6 +4,9 @@
   "description": "Shaw and Partners back-end challenge",
   "main": "index.js",
   "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,17 @@
   ],
   "author": "Nelson Mfinda <hello@nelsonmfinda.me> (http://nelsonmfinda.me/)",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/nelsonmfinda/shawandpartners-test#readme"
+  "homepage": "https://bitbucket.org/nelsonmfinda/shawandpartners-test#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "husky": "^3.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  }
 }
