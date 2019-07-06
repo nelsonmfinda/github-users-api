@@ -89,3 +89,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration
 * etc
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
+[build-url]: #
+[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
+[contributors-url]: https://github.com/nelsonmfinda/github-users-api/graphs/contributors
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-url]: https://choosealicense.com/licenses/mit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/nelsonmfinda
+[product-screenshot]: https://raw.githubusercontent.com/nelsonmfinda/github-users-api/master/screenshot.png
